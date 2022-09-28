@@ -1,0 +1,27 @@
+{
+  "name": "ui_kit_qmd2",
+  "version": "1.0.0",
+  "description": "test ui_kit_for_qmd2_proj",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d build --copy-files",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://PwrdbyOrganization@dev.azure.com/PwrdbyOrganization/Amelia/_git/pwrdby.quickmd.uikit"
+  },
+  "author": "qmd2_team",
+  "license": "ISC",
+  "dependencies": {
+    "react": "18.1.0",
+    "react-quill": "1.3.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}

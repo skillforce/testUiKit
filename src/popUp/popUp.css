@@ -1,0 +1,21 @@
+.popup-container {
+  width: 100vw;
+  height: 100vh;
+  background-color:  rgba(194, 213, 226, 0.6)!important;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999999;
+  position: absolute;
+}
+.popup-box {
+  position: relative;
+  height: 300px;
+  width: 623px;
+  border-radius: 4px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+
+}
+
